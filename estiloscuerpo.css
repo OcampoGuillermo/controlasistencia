@@ -1,0 +1,33 @@
+.main{
+    width: 70%;
+    padding: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+aside{
+    width: 30%;
+    padding: 20%;
+    box-sizing: border-box;
+    float: left;
+}
+@media screen and (max-width: 800px){
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+    }
+    .banner_img{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+    
+}

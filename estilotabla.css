@@ -1,0 +1,22 @@
+table {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+th{
+    background-color: #000000;
+    color: white;
+}
+td{
+    color: white;
+}
+td,th{
+    border:solid #000000 3px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
